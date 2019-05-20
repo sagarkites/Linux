@@ -1,1 +1,1 @@
-# Linux Note
+# Linux Notes
