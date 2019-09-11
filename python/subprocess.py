@@ -1,6 +1,6 @@
 import subprocess
 
-i = subprocess.run("ls", shell=True) # executes with returncode
+i = subprocess.run("ls", shell=True) # prints with returncode
 
 j = subprocess.run(["ls", "-altr"],capture_output=True)
 
