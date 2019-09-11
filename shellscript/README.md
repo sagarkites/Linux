@@ -1,4 +1,4 @@
-# Shell script basic keywords
+# shell script basics
 * **#!bin/bash** - it tells the interpreter that the following lines are written for bash known as shebang
 * **echo** - used to display line of text/string
 * **read** - Reads the data until you press the enter key
