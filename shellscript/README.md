@@ -11,4 +11,5 @@
     * **sh +x** - ends debugs the every line of script before executing 
     * **set -** - starts debugs in script
     * **set +** - ends debugs in scripts
-     * **set -e** - check if any errors in the scripts and stops the entire script execution  
+    * **set -e** - stops script immediately if anything exits with a non-zero status
+    
