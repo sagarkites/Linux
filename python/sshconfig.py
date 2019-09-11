@@ -17,8 +17,8 @@ c.write("/Users/pavanscott/.ssh/config")
 #Prints the resposnse
 print(i, c.host(i))
 #adds to same file attributes 
-#c.add("host_1", Hostname="scott", User="ubuntu", Port=22)
-#c.write("/Users/pavanscott/.ssh/config")
+c.add("host_1", Hostname="scott", User="ubuntu", Port=22)
+c.write("/Users/pavanscott/.ssh/config")
 # remove 
 #c.remove("host_1")
 
