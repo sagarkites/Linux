@@ -9,7 +9,8 @@
     * **sh -nv** -checks the synax of the specfic shell script before executig, -n --noexec, -v --versbose mode 
     * **sh -x** - starts debugs the every line of script before executing 
     * **sh +x** - ends debugs the every line of script before executing 
-    * **set -** - starts debugs in script
-    * **set +** - ends debugs in scripts
+    * **set -options** - starts debugs in script
+    * **set +options** - ends debugs in scripts
     * **set -e** - stops script immediately if anything exits with a non-zero status
+    
     
