@@ -19,7 +19,8 @@
 * **source** - used to read and execute the content of a file and passed as an argument in the current shell script
     * **source file args** - executes the file
     * **source file; fun** - excutes the functions inside script as a runtime environment
-* **eval**    
+* **eval** - evaluates string as command 
+
     
     
     
