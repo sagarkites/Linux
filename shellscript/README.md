@@ -20,6 +20,8 @@
     * **source file args** - executes the file
     * **source file; fun** - excutes the functions inside script as a runtime environment
 * **eval** - evaluates string as command 
+* **$#** - stores the number of arguments 
+
 
     
     
