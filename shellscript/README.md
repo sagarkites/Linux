@@ -21,6 +21,9 @@
     * **source file; fun** - excutes the functions inside script as a runtime environment
 * **eval** - evaluates string as command 
 * **$#** - stores the number of arguments 
+* **wait** - used to give spscific time for the backround processers to complete, $! - used to check bgprocesss  
+* **trap** - used to run the scripts in diffrent singnals
+
 
 
     
