@@ -28,3 +28,7 @@
 | Python | shell |
 | --- | --- |
 |if a <10:| if [ $a -le 10 ];then echo $a; fi |
+||case $1 in
+|| some)|
+   command|
+||   ;;|
