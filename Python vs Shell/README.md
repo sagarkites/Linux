@@ -29,3 +29,7 @@
 | --- | --- |
 |if a <10:| if [ $a -le 10 ];then echo $a; fi |
 ||case $1 in\ some) command\ ;; \esac|
+# Exceptions 
+| Python | shell |
+| --- | --- |
+|try:\ block \ except:\ print() \ finally:\ print()|code 2>/dev/null|
