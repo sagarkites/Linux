@@ -18,3 +18,13 @@
 |dic|
 |set|
 |tuple|
+# Loops
+| Python | shell |
+| --- | --- |
+|for i range(10)| for i in (( i=1; i<=10; i++ ));do echo $i; done|
+|x= [i for i in range(10) if i % 2 == 0]|i=1,until [ $i -gt 100 ];do echo $i; done|
+|i=1,while i<10:,print(i),i=i+1|i=1,while [ $i -le 100 ];then echo $i; done|
+# Conditions
+| Python | shell |
+| --- | --- |
+|if a <10:| if [ $a -le 10 ];then echo $a fi |
