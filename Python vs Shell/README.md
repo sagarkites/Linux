@@ -33,3 +33,7 @@
 | Python | shell |
 | --- | --- |
 |try:\ block \ except:\ print() \ finally:\ print()|code 2>/dev/null|
+# Functions 
+| Python | shell |
+| --- | --- |
+|fun()\ {block of code }\ fun|def fun():\ block of code \ fun()| 
