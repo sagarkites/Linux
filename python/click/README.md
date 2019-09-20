@@ -1,6 +1,5 @@
-# Python click module 
-# This Projet creates python script to binary as shell command 
-* pip install --user click
-* pip install -e /path 
-* python script --help
-* python script --arg=something
+# Python click module is Command Line Interface Creation Kit
+* Install - pip install --user click
+* Make as pkg - pip install -e /path 
+* Check - python script --help
+* Excecute - python script --arg=something
