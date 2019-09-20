@@ -1,6 +1,8 @@
 import click
 import os
-
+'''
+click-arguments must be passed as the function arguments
+'''
 @click.command()
 @click.option('--p', type=str, help='Package Installer.')
 
