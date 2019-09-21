@@ -9,6 +9,6 @@ setup(
     ],
     entry_points='''
          [console_scripts]
-         server-cmd=auth:cli
+         servercmd=auth:cli
     ''',
 )
