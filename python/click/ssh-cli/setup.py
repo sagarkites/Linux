@@ -9,6 +9,6 @@ setup(
     ],
     entry_points='''
          [console_scripts]
-         servercmd=auth:cli
+         sshclient=auth:cli
     ''',
 )
