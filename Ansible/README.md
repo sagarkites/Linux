@@ -1,6 +1,6 @@
 # Ansible-overview
 * components of ansible
-   - Mater - Everything is done through Master 
+    **Mater - Everything is done through Master 
    - Slaves Nodes - communicates with master
    - playbooks - scripts in yaml
    - inventory - configuration file to communicate between master and node
