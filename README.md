@@ -1,4 +1,4 @@
 # Linux-Notes
 * Python
 * shell-script
-* Linux conpects
+* Linux 
