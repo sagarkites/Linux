@@ -1,0 +1,22 @@
+#Ungrouped
+host
+
+#Groups
+[group]
+host1
+host2
+
+[group2]
+host1
+host2
+
+#Combination of Groups
+[group:children] 
+group
+group2
+
+#Applicable to Entire Group
+[group:var]
+ansible_ssh_pass=pass
+ansible_user=user
+ansible_port=port
