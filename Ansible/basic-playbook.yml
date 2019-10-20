@@ -1,0 +1,44 @@
+---
+ - hosts:
+   become: yes # gives the sudo access
+   gather_facts: no
+   tasks:
+   #veriables-section 
+   vars:
+    - ver
+    - ver
+   - name: description 
+     mod:
+     register: result #gets stdout
+   - debug: var=result
+   #conditions
+   - command:  /bin/sh
+     when: ansible_facts == something
+   #Error handling Exceptions 
+   block:
+   - name: description
+     mod:
+   - debug:
+       msg: 'oops! There was error in task'
+   - rescue:
+     - name: description
+       mod:
+   - name: description
+     mod:
+     tags:
+       - string
+     #loop
+     with_item:
+      - item1
+      - item2
+     #jinja-veriables
+   - name: description
+     mode:
+     Key: {{ver}}
+
+# playbook - ansible-playbook palybook.yml
+# tags-taks - ansible-playbook playbook.yml --tag 'string'
+# skip-tags-usingtags- ansible-playbook playbook.yml --skip-tag 'string'   
+# limit-hosts - ansible-playbook playbook.yml --limit hosts
+# jinja-vriables - ansible-playbook --extra-vars ver=something
+     
