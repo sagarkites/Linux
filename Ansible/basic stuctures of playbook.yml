@@ -15,7 +15,7 @@
    - command:  /bin/sh
      when: ansible_facts == something
    #Error handling Exceptions 
-   block:
+   - block:
    - name: description
      mod:
    - debug:
@@ -37,8 +37,8 @@
      Key: {{ver}}
 
 # playbook - ansible-playbook palybook.yml
-# tags-taks - ansible-playbook playbook.yml --tag 'string'
-# skip-tags-usingtags- ansible-playbook playbook.yml --skip-tag 'string'   
+# tags-taks - ansible-playbook playbook.yml --tag 'tag-name'
+# skip-tags-usingtags- ansible-playbook playbook.yml --skip-tag 'tag-name'   
 # limit-hosts - ansible-playbook playbook.yml --limit hosts
 # jinja-vriables - ansible-playbook --extra-vars ver=something
      
