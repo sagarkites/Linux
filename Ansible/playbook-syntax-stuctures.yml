@@ -49,4 +49,7 @@
 # skip-tags-usingtags- ansible-playbook playbook.yml --skip-tag 'tag-name'   
 # limit-hosts - ansible-playbook playbook.yml --limit hosts
 # jinja-vriables - ansible-playbook --extra-vars ver=something
+# parallel-mode - ansible-playbook playbook.yml -f number of tasks
+# debug - ansible -m debug -a "var=some-vars" hosts --> Checks the veriable in hosts file 
+
      
