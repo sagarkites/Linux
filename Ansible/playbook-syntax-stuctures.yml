@@ -35,6 +35,14 @@
    - name: description
      mode:
      Key: {{ver}}
+     #untill - Executes untill statisfies the condition 
+   - name: description
+     mod:
+     resgister: varible
+     untill: veriable.find.something == something
+     retries: number
+     delay: number
+   - debug: var=veriable
 
 # playbook - ansible-playbook palybook.yml
 # tags-taks - ansible-playbook playbook.yml --tag 'tag-name'
