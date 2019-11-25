@@ -5,9 +5,9 @@ import argparse
 def inv():
     data = {
       "servers": {
-           "hosts": ['ec2-3-82-120-69.compute-1.amazonaws.com', 'ec2-3-87-206-220.compute-1.amazonaws.com'],
+           "hosts": ['host-name', 'host-name'],
            "vars": {
-               "ansible_ssh_user": "ec2-user"
+               "ansible_ssh_user": "user"
             }
        }
     }
