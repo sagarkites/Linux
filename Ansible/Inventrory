@@ -1,21 +1,17 @@
-#Ungrouped
+# Ungrouped
 host
-
-#Groups
+# Groups
 [group]
 host1
 host2
-
 [group2]
 host1
 host2
-
-#Combination of Groups
+# Merge
 [group:children] 
 group
 group2
-
-#Applicable to Entire Group
+# Applicable to Entire Group
 [group:var]
 ansible_ssh_pass=pass
 ansible_user=user
