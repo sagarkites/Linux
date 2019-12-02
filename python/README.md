@@ -1,4 +1,4 @@
-# Python basics 
+# Python
 * **list** - collection of items seprated by ',' reprsented as '[a,b,c,a,c]' and are Mutable
 * **tuple** - collection of items seprated by ',' represented as '(a,b,c)' and are Immutable
 * **dic** - collection of items as key-values pairs and representedas '{key:value}' seprated by ',' and are Immutable
