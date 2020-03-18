@@ -1,3 +1,4 @@
+# os-module 
 import os
 os.system('sudo cat /etc/passwd') # Runs command 
 os.getcwd() # Returns the current working directory.
