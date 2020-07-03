@@ -1,2 +1,3 @@
-for i range(10):
-    print(i)
+import os
+for i in range(10):
+    print(os.system('ls'))
